@@ -1,0 +1,8 @@
+{
+  "name": "cra-from-crash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phucvu-1999/setup-react-app-from-crash.git",
+  "author": "Tien Phuc <leesinvn123@gmail.com>",
+  "license": "MIT"
+}
