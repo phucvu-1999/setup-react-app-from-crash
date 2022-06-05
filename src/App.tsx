@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./Components/Header";
 
 const App = () => {
-  return <div>React Webpack Typescript Configuration</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default App;
