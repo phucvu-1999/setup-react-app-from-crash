@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "./avatar2.jpg";
+import Beverages from "./beverages-food-svgrepo-com.svg";
 import Header from "./Components/Header";
 
 import "./style.css";
@@ -8,6 +10,8 @@ const App = () => {
     <>
       <h1 className="text">Test Css</h1>
       <Header />
+      <img src={Image} alt="react-logo" width={100} height={100} />
+      <img src={Beverages} alt="logo" width={100} height={100} />
     </>
   );
 };
