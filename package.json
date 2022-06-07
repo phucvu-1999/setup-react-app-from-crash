@@ -10,6 +10,8 @@
     "build": "webpack --config webpack/webpack.config.js --env env=prod"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
@@ -24,6 +26,9 @@
     "@types/react-dom": "^18.0.5",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "react-refresh": "^0.13.0",
